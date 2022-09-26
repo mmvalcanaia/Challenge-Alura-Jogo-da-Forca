@@ -12,12 +12,21 @@
       <a href="index.html"><img src="/assets/alura-logo.svg" alt="" /></a>
     </div>
     <div class="input-container">
-      <input type="text" placeholder="Digite uma palavra ou frase" />
+      <input
+        id="input-field"
+        type="text"
+        placeholder="Digite uma palavra ou frase"
+      />
 
-      <div class="input-buttons-container">
-        <button class="button-blue">Salvar e começar</button>
-        <button class="button-light">Cancelar</button>
+      <div class="control-buttons-container">
+        <button onClick="addNewWord()" class="button-blue">
+          Salvar e começar
+        </button>
+        <a href="index.html">
+          <button class="button-light">Cancelar</button>
+        </a>
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
